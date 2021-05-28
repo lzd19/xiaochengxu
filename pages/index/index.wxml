@@ -1,0 +1,44 @@
+<view>示例一</view>
+<view class="menu">
+  <view class="itme">
+    <image src="/static/my1.png"></image>
+    <text>333</text>
+    </view>
+
+    <view class="itme">
+    <image src="/static/my1.png"></image>
+    <text>333</text>
+    </view>
+
+    <view class="itme">
+    <image src="/static/my1.png"></image>
+    <text>333</text>
+    </view>
+
+    <view class="itme">
+    <image src="/static/my1.png"></image>
+    <text>333</text>
+    </view>
+</view>
+
+<view>示例三</view>
+<view class="auction">  
+  <view class="item">
+    <view class="title">拍卖第一场</view>
+    <view class="tips">
+      <view class="status">2021-5-28</view>
+      <view class="count">111次围观</view>
+    </view>
+
+    <view>
+      <image src="/static/home2.png"></image>
+    </view>
+    <view class="small">
+      <image src="/static/home2.png"></image>
+      <image src="/static/home2.png"></image>
+      <image src="/static/home2.png"></image>
+      <image src="/static/home2.png"></image>
+      <image src="/static/home2.png"></image>
+    </view>
+  </view>
+</view>

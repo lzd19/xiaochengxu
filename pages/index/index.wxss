@@ -1,0 +1,18 @@
+.menu image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.menu{
+  display: flex;
+  /* 规定主轴方向 */
+  flex-direction: row;
+  /* 在主轴方向如何展示 :flex-start center space-around space-between*/
+  justify-content: space-around;
+  /* 在副轴方向的展示 :flex-start center space-around space-between*/
+  align-items: center;
+}
+
+.auction .item .title{
+  font-size: 60rpx;
+  font-weight: 600;
+}
