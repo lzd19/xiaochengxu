@@ -30,7 +30,7 @@
       <view class="count">111次围观</view>
     </view>
 
-    <view>
+    <view class="big">
       <image src="/static/home2.png"></image>
     </view>
     <view class="small">
