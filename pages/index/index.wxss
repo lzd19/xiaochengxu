@@ -3,37 +3,13 @@
   height: 100rpx;
 }
 .menu{
+  padding-top: 20rpx;
   display: flex;
   /* 规定主轴方向 */
   flex-direction: row;
   /* 在主轴方向如何展示 :flex-start center space-around space-between*/
   justify-content: space-around;
   /* 在副轴方向的展示 :flex-start center space-around space-between*/
-  align-items: center;
+  /* align-items: flex-end; */
 }
 
-.auction .item .title{
-  font-size: 60rpx;
-  font-weight: 600;
-} 
-.auction .item .tips{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 30rpx;
-  color:#8c8c8c;
-}
-.auction .item .big image{
-  align-items: center;
-  /* width: 100%;
-  height: 100%; */
-}
-.auction .item .small{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.auction .item .small image{
-  width: 100rpx;
-  height: 100rpx;
-}

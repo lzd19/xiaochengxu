@@ -2,27 +2,49 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/news/news",
+    "pages/publish/publish",
+    "pages/auction/auction",
+    "pages/jump1/jump1"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFDAB9",
-    "navigationBarTitleText": "鸡腿",
+    "navigationBarTitleText": "跳蚤市场",
     "navigationBarTextStyle": "black"
   },
-  "tabBar":{
-    "list":[
+  "tabBar": {
+    "list": [
       {
-        "pagePath":"pages/index/index",
-        "text":"首页",
-        "iconPath":"static/home1.png",
-        "selectedIconPath":"static/home2.png"
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home1.png",
+        "selectedIconPath": "static/home2.png"
       },
       {
-        "pagePath":"pages/home/home",
-        "text":"个人",
-        "iconPath":"static/my1.png",
-        "selectedIconPath":"static/my2.png"
+        "pagePath": "pages/auction/auction",
+        "text": "拍卖",
+        "iconPath": "static/auction1.png",
+        "selectedIconPath": "static/auction2.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "static/publish1.png",
+        "selectedIconPath": "static/publish2.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "static/talk1.png",
+        "selectedIconPath": "static/talk2.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "个人",
+        "iconPath": "static/my1.png",
+        "selectedIconPath": "static/my2.png"
       }
     ]
   },

@@ -1,0 +1,13 @@
+<!--pages/jump1/jump1.wxml-->
+<text>data:{{messge}}</text>
+<button bindtap="change">点我修改</button>
+
+<view>当前用户名:{{name}}</view>
+<view>当前用户头像:<image src="{{path}}" style="height:100rpx;width:100rpx;"></image></view>
+<button open-type="getUserInfo" bindgetuserinfo="get">点击获取当前信息</button>
+<view bindtap="getlocation">{{location}}</view>
+
+<view bindtap="uploadImage">请上传图片</view>
+<view class="container">
+  <image wx:for="{{imageList}}" src="{{item}}"></image>
+</view>

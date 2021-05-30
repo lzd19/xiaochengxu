@@ -1,0 +1,35 @@
+.love image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.love .item{
+  align-items: center;
+}
+.love{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  /* padding-bottom: ; */
+  background-color: blanchedalmond;
+  border: white 10rpx solid;
+}
+
+.weui-cell .weui-cell__hd image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.weui-cell .weui-cell__bd .item{
+  display: flex;
+  flex-direction: column;
+}
+.weui-cell .weui-cell__bd .item .items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.weui-cell .weui-cell__bd .item .size{
+  font-size: 35rpx;
+  font-weight: 600;
+}

@@ -1,0 +1,44 @@
+<view class="love">
+  <view class="itme">
+    <image src="/static/collect.png"></image>
+    <view>赞和收藏</view>
+  </view>
+  <view class="itme">
+    <image src="/static/visit.png"></image>
+    <view>最近来访</view>
+  </view>
+  <view class="itme">
+    <image src="/static/review.png"></image>
+    <view>评论和@</view>
+  </view>
+</view>
+
+<view class="weui-cell weui-cell_avtive">
+  <view class="weui-cell__hd">
+    <image src="/static/massage.png"></image>
+  </view>
+  <view class="weui-cell__bd">
+    <view class="item">
+      <view class="items">
+        <text class="size">系统信息</text>
+        <text class="data">2021-12-12</text>
+      </view>
+      <text class="demo_badge_desc">摘要信息</text>
+    </view>
+  </view>
+</view>
+
+<view class="weui-cell weui-cell_avtive">
+  <view class="weui-cell__hd">
+    <image src="/static/massage.png"></image>
+  </view>
+  <view class="weui-cell__bd">
+    <view class="item">
+      <view class="items">
+        <text class="size">系统信息</text>
+        <text class="data">2021-12-12</text>
+      </view>
+      <text class="demo_badge_desc">摘要信息</text>
+    </view>
+  </view>
+</view>

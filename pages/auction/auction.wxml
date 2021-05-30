@@ -1,0 +1,23 @@
+<!-- 也可以通过标签跳转
+<navigator url="/pages/jump1/jump1?id=123">222</navigator>
+ -->
+<view class="auction" bindtap="clickMe" data-nid="123" data-name="sb">  
+  <view class="item">
+    <view class="title">拍卖第一场</view>
+    <view class="tips">
+      <view class="status">2021-5-28</view>
+      <view class="count">111次围观</view>
+    </view>
+
+    <view class="big">
+      <image src="/static/home2.png"></image>
+    </view>
+    <view class="small">
+      <image src="/static/home2.png"></image>
+      <image src="/static/home2.png"></image>
+      <image src="/static/home2.png"></image>
+      <image src="/static/home2.png"></image>
+      <image src="/static/home2.png"></image>
+    </view>
+  </view>
+</view>

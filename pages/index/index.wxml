@@ -1,44 +1,23 @@
-<view>示例一</view>
 <view class="menu">
   <view class="itme">
-    <image src="/static/my1.png"></image>
-    <text>333</text>
+    <image src="/static/talk1.png"></image>
+    <view>使用须知</view>
     </view>
 
     <view class="itme">
-    <image src="/static/my1.png"></image>
-    <text>333</text>
+    <image src="/static/talk1.png"></image>
+    <view>卖家视频</view>
     </view>
 
     <view class="itme">
-    <image src="/static/my1.png"></image>
-    <text>333</text>
+    <image src="/static/talk1.png"></image>
+    <view>金牌卖家</view>
     </view>
 
     <view class="itme">
-    <image src="/static/my1.png"></image>
-    <text>333</text>
+    <image src="/static/talk1.png"></image>
+    <view>看看推荐</view>
     </view>
 </view>
 
-<view>示例三</view>
-<view class="auction">  
-  <view class="item">
-    <view class="title">拍卖第一场</view>
-    <view class="tips">
-      <view class="status">2021-5-28</view>
-      <view class="count">111次围观</view>
-    </view>
 
-    <view class="big">
-      <image src="/static/home2.png"></image>
-    </view>
-    <view class="small">
-      <image src="/static/home2.png"></image>
-      <image src="/static/home2.png"></image>
-      <image src="/static/home2.png"></image>
-      <image src="/static/home2.png"></image>
-      <image src="/static/home2.png"></image>
-    </view>
-  </view>
-</view>
