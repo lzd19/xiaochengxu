@@ -10,14 +10,35 @@
     </view>
 
     <view class="big">
-      <image src="/static/home2.png"></image>
+      <image src="/static/胖老鼠.png"></image>
     </view>
     <view class="small">
-      <image src="/static/home2.png"></image>
-      <image src="/static/home2.png"></image>
-      <image src="/static/home2.png"></image>
-      <image src="/static/home2.png"></image>
-      <image src="/static/home2.png"></image>
+      <image src="/static/小幽灵.png"></image>
+      <image src="/static/波妞.png"></image>
+      <image src="/static/小狐狸.png"></image>
+      <image src="/static/小黄鸡.png"></image>
+      <image src="/static/ufo.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="auction" bindtap="clickMe" data-nid="123" data-name="sb">  
+  <view class="item">
+    <view class="title">拍卖第二场</view>
+    <view class="tips">
+      <view class="status">2021-5-28</view>
+      <view class="count">111次围观</view>
+    </view>
+
+    <view class="big">
+      <image src="/static/胖老鼠.png"></image>
+    </view>
+    <view class="small">
+      <image src="/static/小幽灵.png"></image>
+      <image src="/static/波妞.png"></image>
+      <image src="/static/小狐狸.png"></image>
+      <image src="/static/小黄鸡.png"></image>
+      <image src="/static/ufo.png"></image>
     </view>
   </view>
 </view>

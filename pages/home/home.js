@@ -5,9 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    path:"/static/visit.png",
   },
-
+  get:function(){
+    //wx.openSetting({});
+    var that=this;
+    //调用微信接口，获取当前用户信息
+    wx.getUserInfo({
+      success:function(res){
+        console.log('success',res)
+        that.setData({
+          name:res.userInfo.nickName,
+          path:res.userInfo.avatarUrl
+        });
+      },
+      //调用失败
+      fail:function(res){
+        console.log('fail',res)
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

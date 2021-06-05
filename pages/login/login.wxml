@@ -1,0 +1,7 @@
+<view>手机号:</view>
+<input value="{{phone}}" bindinput="bindPhone" placeholder="请输入手机号："></input>
+
+<view>验证码:<text bindtap="messagecode">点击获取验证码</text></view>
+<input value="{{Code}}" bindinput="bindCode" placeholder="请输入验证码:"></input>
+
+<button bindtap="login">提交</button>

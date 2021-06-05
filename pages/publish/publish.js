@@ -5,9 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
+    image:["/static/upimg.png"],
 
   },
-
+  uploadImage:function(){
+    var that=this;
+    wx.chooseImage({
+      count:9,
+      sizeType:['original','compressed'],
+      sourceType:['album','camera'],
+      success:function(res){
+          that.setData({
+            image:res.tempFilePaths
+          });
+          /* that.setData({
+            imageList:that.data.imageList.concat(res.tempFilePaths)
+          }) */
+      }
+    })
+  },
+  clickMe:function(e){
+    var nid=e.currentTarget.dataset.nid;/* 获取nid */
+    console.log(nid);
+    wx.navigateTo({
+      url: '/pages/jump1/jump1?id='+nid,/* 跳转到的URL页面 */
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

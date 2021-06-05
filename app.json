@@ -6,11 +6,14 @@
     "pages/news/news",
     "pages/publish/publish",
     "pages/auction/auction",
-    "pages/jump1/jump1"
+    "pages/jump1/jump1",
+    "pages/success/success",
+    "pages/login/login",
+    "pages/text1/text1"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#FFDAB9",
+    "navigationBarBackgroundColor": "#F8F8FF",
     "navigationBarTitleText": "跳蚤市场",
     "navigationBarTextStyle": "black"
   },

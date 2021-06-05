@@ -11,3 +11,6 @@
 <view class="container">
   <image wx:for="{{imageList}}" src="{{item}}"></image>
 </view>
+
+<view>你输入了：{{message}}</view>
+<input value="{{message}}" bindinput="bindText"></input>

@@ -9,7 +9,8 @@ Page({
     name:"老铁666",
     path:"/static/my2.png",
     location:"请选择你的地址",
-    imageList:["/static/talk1.png","/static/talk2.png"]
+    imageList:["/static/talk1.png","/static/talk2.png"],
+    message:"222",
   },
   change:function(){
     //获取数据
@@ -61,7 +62,9 @@ Page({
       }
     })
   },
-
+  bindText:function(e){
+    this.setData({message:e.detail.value});
+  },
   /**
    * 生命周期函数--监听页面加载
    */

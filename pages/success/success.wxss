@@ -1,0 +1,13 @@
+.play image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.play{
+  display: flex;
+  flex-direction: row;
+}
+.play .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

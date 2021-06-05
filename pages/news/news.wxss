@@ -2,9 +2,6 @@
   width: 100rpx;
   height: 100rpx;
 }
-.love .item{
-  align-items: center;
-}
 .love{
   display: flex;
   flex-direction: row;
@@ -12,13 +9,15 @@
   padding-top: 20rpx;
   padding-bottom: 20rpx;
   /* padding-bottom: ; */
-  background-color: blanchedalmond;
+  background-color:#F8F8FF;
   border: white 10rpx solid;
+  text-align: center;
 }
 
 .weui-cell .weui-cell__hd image{
   width: 100rpx;
   height: 100rpx;
+  padding-right: 30rpx;
 }
 .weui-cell .weui-cell__bd .item{
   display: flex;

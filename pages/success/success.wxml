@@ -1,0 +1,9 @@
+<view class="play">
+  <image src="/static/胖老鼠.png"></image>
+  <view class="text">
+    <text>商品名称{{}}</text>
+    <text>价格:{{many}}</text>
+    <text>发布日期:{{data}}</text>
+    <text>立即下单</text>
+  </view>
+</view>

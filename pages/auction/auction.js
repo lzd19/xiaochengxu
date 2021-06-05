@@ -68,7 +68,7 @@ Page({
     var nid=e.currentTarget.dataset.nid;/* 获取nid */
     console.log(nid);
     wx.navigateTo({
-      url: '/pages/jump1/jump1?id='+nid,/* 跳转到的URL页面 */
+      url: '/pages/success/success?id='+nid,/* 跳转到的URL页面 */
     })
   }
 })

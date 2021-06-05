@@ -1,70 +1,74 @@
-<view class="user_info_wrap">
-	<view wx:if="{{userInfo.avatarUrl}}" class="user_img_wrap">
-		<image class="user_bg" src="{{userInfo.avatarUrl}}"></image>
-		<view class="user_info">
-			<image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
-			<view class="user_name">{{userInfo.nickName}}</view>
+<view class="head">
+	<view class="users">
+		<view class="man">
+			<image src="{{path}}" style="height:100rpx;width:100rpx;"></image>
+			<text open-type="getUserInfo" bindgetuserinfo="get">登 录</text>
+			<text>|</text>
+			<text>注 册</text>
 		</view>
+		<view class="mans">查看个人主页</view>
 	</view>
-	<view wx:else class="user_btn">
-		<navigator url="/pages/login/index">登录</navigator>
+
+	<view class="head-body">
+		<view class="text">
+			<view>0</view>
+			<view>关注</view>
+		</view>
+		<view class="text">
+			<view>0</view>
+			<view>粉丝</view>
+		</view>
+		<view class="text">
+			<view>0</view>
+			<view>赞和收藏</view>
+		</view>
+		<view class="text">
+			<view>0</view>
+			<view>好友动态</view>
+		</view>
 	</view>
 </view>
-<view class="menu_content">
-	<view class="main">
-		<!-- 历史足迹 -->
-		<view class="history_wrap">
-			<navigator class="navi">
-				<view class="his_num">0</view>
-				<view class="his_name">收藏的店铺</view>
-			</navigator>
-			<navigator class="navi" url="/pages/favorites/index">
-				<view class="his_num">0</view>
-				<view class="his_name">收藏的商品</view>
-			</navigator>
-			<navigator class="navi">
-				<view class="his_num">0</view>
-				<view class="his_name">关注的商品</view>
-			</navigator>
-			<navigator class="navi">
-				<view class="his_num">0</view>
-				<view class="his_name">我的足迹</view>
-			</navigator>
+
+<view class="body-head">
+	<view class="message">
+		<image src="/static/1.png"></image>
+		<view>待支付</view>
+	</view>
+	<view class="message">
+		<image src="/static/2.png"></image>
+		<view>待发货</view>
+	</view>
+	<view class="message">
+		<image src="/static/3.png"></image>
+		<view>待收获</view>
+	</view>
+	<view class="message">
+		<image src="/static/4.png"></image>
+		<view>评价</view>
+	</view>
+	<view class="message">
+		<image src="/static/5.png"></image>
+		<view>退款/售后</view>
+	</view>
+</view>
+
+<view class="body">
+	<view class="weui-cell weui-cell__access">
+		<view class="weui-cell__bd">
+			<text>我的钱包</text>
 		</view>
-		<!-- 我的订单 -->
-		<view class="order_wrap">
-			<view class="title">我的订单</view>
-			<view class="order_content">
-				<navigator class="navi" url="/pages/order/index?type=0">
-					<view class="icon img-reader"></view>
-					<view class="order_name">全部订单</view>
-				</navigator>
-				<navigator class="navi" url="/pages/order/index?type=1">
-					<view class="icon img-card"></view>
-					<view class="order_name">待付款</view>
-				</navigator>
-				<navigator class="navi" url="/pages/order/index?type=2">
-					<view class="icon img-earth"></view>
-					<view class="order_name">待收货</view>
-				</navigator>
-				<navigator class="navi" url="/pages/order/index?type=3">
-					<view class="icon img-wallet"></view>
-					<view class="order_name">退款/退货</view>
-				</navigator>
-			</view>
+		<view class="weui-cell__ft">￥10></view>
+	</view>
+		<view class="weui-cell weui-cell__access">
+		<view class="weui-cell__bd">
+			<text>优惠卷</text>
 		</view>
-		<!-- 收货地址管理 -->
-		<view class="address_wrap">收货地址管理</view>
-		<!-- 应用相关 -->
-		<view class="app_wrap">
-			<view class="info_item app_contact">
-				<text>联系客服</text>
-				<text>400-618-4000</text>
-			</view>
-			<navigator class="info_item" url="/pages/feedback/index">意见反馈</navigator>
-			<view class="info_item">关于我们</view>
+		<view class="weui-cell__ft">暂无可用></view>
+	</view>
+		<view class="weui-cell weui-cell__access">
+		<view class="weui-cell__bd">
+			<text>福利中心</text>
 		</view>
-		<!-- 推荐 -->
-		<view class="recommend_wrap">把小程序推荐给其他人</view>
+		<view class="weui-cell__ft">来呀来呀></view>
 	</view>
 </view>
